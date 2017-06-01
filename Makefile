@@ -60,10 +60,6 @@ package:
 	python setup.py sdist
 
 
-pact/bin:
-	scripts/build.sh
-
-
 .PHONY: test
 test: deps pact/bin
 	flake8
